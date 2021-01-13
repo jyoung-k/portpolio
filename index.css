@@ -58,7 +58,7 @@ body{
   font-family: Arial Black;
 }
 .logo{
-  height: 30vh;
+  height: 40vh;
   display: flex;
   flex-direction: row;
   position: relative;
