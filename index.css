@@ -69,80 +69,24 @@ body{
 .gap{
   margin: 50px 200px;
 }
-.project{
+.project1{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   max-width:1200px;
   width:100%;
-  margin:0 auto;
+  margin-left : 20%;
 }
-ul{
-  font-size:0;
+.project1 .screen1 {
+  margin-right: 5%;
 }
-ul > li {
-  display: inline-block;
-  vertical-align:top;
-  width:50%;
+.project2{
+  display: flex;
+  max-width:1200px;
+  width:100%;
+  margin-left : 20%;
+  margin-top: 5%;
 }
-ul > li > a {
-  width: auto;
-  display: block;
-  text-decoration: none;
-  margin:5px;
-}
-ul > li > a .screen {
-  position: relative;
-  overflow: hidden;
-}
-ul > li > a .screen .top{
-  position: absolute;
-  bottom:120%;
-  left: 30px;
-  z-index: 2;
-  color:#fff;
-  font-size:20px;
-  font-weight: 50;
-  font-family: 'Sunflower', sans-serif;
-  transition: all .35s;
-}
-ul > li > a .scree .bottom {
-  position: absolute;
-  top:200%;
-  left:30px;
-  z-index: 2;
-  color: #fff;
-  font-size: 12px;
-  transition: all .35s;
-}
-ul > li > a .screen .img{
-  width: 100%;
-}
-ul > li > a h3{
-  font-size: 14px;
-  text-align: center;
-  padding: 20px;
-  color:#666;
-}
-ul > li > a:hover .top{bottom:52% }
-ul > li > a:hover .bottom{top:52% }
-ul > li > a .screen::after {
-  content: '';
-  display: block;
-  position: absolute;
-  top:0;
-  left:0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, .5);
-  z-index: 1;
-  opacity: 0;
-  transition: all .35;
-}
-ul > li > a:hover .screen::after{
-  opacity: 1;
-}
-
 .contact{
   margin: 50px 0 70px 40%;
 }
